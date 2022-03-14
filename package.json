@@ -1,0 +1,24 @@
+{
+  "name": "markdown-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerbertHe/markdown-tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HerbertHe/markdown-tasks/issues"
+  },
+  "homepage": "https://github.com/HerbertHe/markdown-tasks#readme",
+  "devDependencies": {
+    "marked": "^4.0.12",
+    "tsup": "^5.12.1",
+    "typescript": "^4.6.2"
+  }
+}
