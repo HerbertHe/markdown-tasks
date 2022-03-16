@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,13 @@
   },
   "homepage": "https://github.com/HerbertHe/markdown-tasks#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "@types/marked": "^4.0.2",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
     "marked": "^4.0.12",
     "tsup": "^5.12.1",
     "typescript": "^4.6.2"

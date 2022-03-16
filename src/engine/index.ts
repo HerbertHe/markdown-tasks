@@ -1,11 +1,22 @@
-export interface ITasksTokens {}
+/**
+ * @param depth 深度
+ * @param checked 勾选情况
+ * @param content 内容
+ */
+export interface ITasksToken {
+	depth: number
+	checked: boolean
+	content: string
+}
+
+export type TaskTokensType = Array<ITasksToken>
 
 /**
  * TasksEngine
  */
 export class TasksEngine {
-    private _tokens: ITasksTokens
-    constructor(tokens: ITasksTokens) {
+    private _tokens: TaskTokensType
+    constructor(tokens: TaskTokensType) {
         this._tokens = tokens
     }
 
